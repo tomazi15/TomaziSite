@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+
+        <!-- Controller -->
+        <service id="tomazi.sitebundle.controller.index"
+                 class="Tomazi\SiteBundle\Controller\IndexController">
+            <argument type="service" id="tomazi.sitebundle.factory.index" />
+            <argument type="service" id="service_container" />
+        </service>
+
+        <!-- Factories -->
+        <service id="tomazi.sitebundle.factory.index"
+                 class="Tomazi\SiteBundle\Factories\FactoryHomePage">
+        </service>
+
+        <!-- Factories -->
+        <!--<service id="tomazi.sitebundle.twig.container"-->
+                 <!--class="AppBundle\Twig\AppExtension">-->
+        <!--</service>-->
+
+
+
+    </services>
+</container>

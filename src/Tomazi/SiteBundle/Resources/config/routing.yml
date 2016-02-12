@@ -1,0 +1,3 @@
+tomazi_site_homepage:
+    path:     /home
+    defaults: { _controller: tomazi.sitebundle.controller.index:indexPageAction }

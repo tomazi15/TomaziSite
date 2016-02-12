@@ -1,0 +1,5 @@
+tomazi_site:
+    resource: "@TomaziSiteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
