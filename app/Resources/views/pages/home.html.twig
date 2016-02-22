@@ -1,5 +1,12 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Hey There</h1>
+
+    <div class="container">
+    {% for item in home %}
+        <ul>
+            <li>{{ item }}</li>
+        </ul>
+    {% endfor %}
+    </div>
 {% endblock %}

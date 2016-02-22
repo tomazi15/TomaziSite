@@ -22,9 +22,6 @@ class IndexController extends Controller
 
     public function indexPageAction()
     {
-
-        return $this->render('pages/home.html.twig', array('name' => 'Tomazi'));
+        return $this->render('pages/home.html.twig', array('home' => $this->home->create()));
     }
-
-
 } 
