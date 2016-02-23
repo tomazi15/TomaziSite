@@ -11,6 +11,12 @@
             <argument type="service" id="service_container" />
         </service>
 
+        <!--&lt;!&ndash; Repositories &ndash;&gt;-->
+        <!--<service id="tomazi.sitebundle.repository.nav"-->
+                 <!--class="Tomazi\SiteBundle\Repositories\NavigationRepo">-->
+            <!--<argument type="service" id="doctrine.orm.entity_manager" />-->
+        <!--</service>-->
+
         <!-- Factories -->
         <service id="tomazi.sitebundle.factory.index"
                  class="Tomazi\SiteBundle\Factories\FactoryHomePage">

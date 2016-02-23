@@ -31,7 +31,7 @@ gulp.task('css', function () {
 
 //IMAGE TASK: Just pipe images from project folder to public web folder
 gulp.task('img', function() {
-    return gulp.src('app/Resources/public/img/**/*.*')
+    return gulp.src('app/Resources/images/**/*.*')
         .pipe(gulp.dest('web/img'));
 });
 
