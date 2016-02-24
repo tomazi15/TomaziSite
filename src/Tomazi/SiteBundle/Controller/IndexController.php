@@ -22,6 +22,6 @@ class IndexController extends Controller
 
     public function indexPageAction()
     {
-        return $this->render('views/base.html.twig');
+        return $this->render('views/pages/home.html.twig');
     }
 } 

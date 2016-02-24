@@ -1,0 +1,54 @@
+.banner {
+  width: 100%;
+}
+
+.main {
+
+  &__about {
+    width: auto;
+    height: 200px;
+    background-color: $aboutMe;
+    margin-top: 20px;
+  }
+
+  &__skills {
+    width: auto;
+    height: 200px;
+    background-color: $skills;
+  }
+
+  &__portfolio {
+    width: auto;
+    height: 200px;
+    background-color: $portfolio;
+  }
+
+  &__blog {
+    width: auto;
+    height: 200px;
+    background-color: $blog;
+  }
+
+  &__contact {
+    width: auto;
+    height: 200px;
+    background-color: $contact;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+//  @media (min-width: $screen-md-tablet) {
+//    width: $screen-md-tablet;
+//  }
+
+//  @media (min-width: $screen-lg-desktop) {
+//    width: $screen-lg-desktop;
+//  }
+
+
+}

@@ -10,21 +10,22 @@
 </head>
 <body>
 
-<div id="navigation">
+<div>
     {% block navigation %}
         {% include 'pages/navigation.html.twig' %}
     {% endblock %}
 </div>
-
-<div id="sidebar">
-    {% block sidebar %}
-
+<div class="banner">
+    {% block banner %}
     {% endblock %}
 </div>
 
-<div id="content">
-    {% block body %}
-    {% endblock %}
+<div class="container">
+    <div class="main">
+        {% block body %}
+        {% endblock %}
+    </div>
 </div>
+
 </body>
 </html>
